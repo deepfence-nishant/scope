@@ -1,0 +1,95 @@
+$fa-font-path: "~font-awesome/fonts";
+/* weave company colours */
+$weave-gray-blue: rgb(85,105,145);
+$weave-blue: rgb(0,210,255);
+$weave-orange: rgb(255,75,25);
+$weave-charcoal-blue: rgb(50,50,75); // #32324B
+$success-green: green;
+
+$base-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono-font: "Menlo", "DejaVu Sans Mono", "Liberation Mono", monospace;
+
+$base-ease: ease-in-out;
+$primary-color: $weave-charcoal-blue;
+
+$background-color: #1A1A1A;
+$background-lighter-color: #41454c;
+$background-average-color: #363636;
+$background-darker-color: #333333;
+$background-darker-secondary-color: #262626;
+$background-dark-color: #111111;
+$text-secondary-color: #EEEEEE;
+$text-tertiary-color: #d6d6d6;
+$border-light-color: #ffffff;
+$text-darker-color: #dddddd;
+
+$white: #FFFFFF;
+$text-color: #ffffff;
+
+$details-window-width: 420px;
+$details-window-padding-left: 36px;
+$border-radius: 4px;
+
+$terminal-header-height: 44px;
+
+$node-elements-in-background-opacity: 0.7;
+
+$node-highlight-shadow-opacity: 0.5;
+$node-highlight-stroke-opacity: 0.4;
+$node-highlight-stroke-width: 0.04;
+$node-border-stroke-width: 0;
+$node-shadow-stroke-width: 0.18;
+$node-pseudo-opacity: 0.8;
+$node-text-scale: 2;
+$edge-highlight-opacity: 0.1;
+$edge-opacity-blurred: 0.2;
+$edge-opacity: 0.5;
+$edge-color: rgb(110, 110, 156);
+
+$btn-opacity-default: 0.7;
+$btn-opacity-hover: 1;
+$btn-opacity-selected: 0.9;
+$btn-opacity-disabled: 0.25;
+
+$link-opacity-default: 0.8;
+
+$search-border-color: transparent;
+$search-border-width: 1px;
+
+$timeline-height: 55px;
+
+/* specific elements */
+$body-background-color: linear-gradient(30deg, $background-color 0%, $background-lighter-color 100%);
+$label-background-color: none; /*fade-out($background-average-color, .3); */
+
+/////////////////////////////////////////////// NEW VARIABLES //////////////////////////////////////////////////
+
+/* START :: FONTS IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+$open-sans: 'Open Sans', sans-serif;
+/* END :: FONTS IMPORTS */
+
+/* START :: COLORS VARIABLE */
+$theme-color: #252525;
+$d-background-color: #101010;
+$dark-black: #080808;
+$nav-menu-color: #7f7e7e;
+$border-color: #252525;
+$grey-color: #999999;
+$critical-alert-color: #db2547;
+$critical-alert-background: #1f0a0f;
+$high-alert-color: #e08a25;
+$high-alert-background: #20150b;
+$medium-alert-color: #e7d036;
+$medium-alert-background: #211e0d;
+$low-alert-color: #0276c9;
+$low-alert-background: #07131d;
+$table-row-color: #181818;
+$input-field-background: #303030;
+/* END :: COLORS VARIABLE */
+
+/* START :: DIMENSION VARIABLES */
+$font-size:14px;
+$height:30px;
+$spacing:10px;
+/* END :: DIMENSION VARIABLES */
